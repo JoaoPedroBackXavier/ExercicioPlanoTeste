@@ -389,6 +389,43 @@ O produto deve ser editado, o usuario deve ser notificado de que o produto foi e
 - [ ] Reprovado
 
 ---
+
+## 🧪 ID: 012
+
+### ✅ Tentativa de editar um produto que nao existe:
+
+### 🎯 Descrição:
+O usuario vai tentar editar um produto que nao existe
+
+### 🧰 Pré-requisitos:
+-  O usuário deve estar na tela de editar produtos
+-  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
+
+### 📝 Procedimentos (Passos para execução do teste):
+1. O usuário tem que estar na tela de editar produto
+2. O usuário tem que tentar editar um produto com nome invalido
+3. O usuario tem que tentar botar um novo nome valido
+4. Clicar no botão "Editar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Nome             | nao existo             |
+| NovoNome         | maçãn                  |
+
+### 💡 Resultado Esperado:
+O programa deve notificar que nao encontrou o produto a ser editado
+
+### 📌 Resultado Obtido:
+!
+
+### ✅ Status do Teste:
+!
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
       
 
 
