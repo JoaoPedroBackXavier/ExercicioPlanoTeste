@@ -75,7 +75,6 @@ Os testes visam validar a precisão dessas funcionalidades e a integridade da in
 | Ferramenta             | Finalidade                             |
 |------------------------|----------------------------------------|
 |        JUnit           | Testes automatizados                   |
-|      TestRail          | Planejamento e execução dos testes     |
 |   Apache Netbeans      | Testes automatizados                   |
 
 ### Equipe Envolvida:
