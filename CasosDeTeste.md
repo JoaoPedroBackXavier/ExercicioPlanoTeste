@@ -73,7 +73,7 @@ Usuario deve ser notificado que o email ja existe e todos os campos devem ser ap
 ---
 ## 🧪 ID: 003
 
-### ✅ Cadastro de usuario com email invalido:
+### ✅ Cadastro de usuario com email inesistente:
 
 ### 🎯 Descrição:
 Testar como o programa reaje ao tentar cadastrar um email que nao existe
@@ -118,7 +118,7 @@ verificar se o sistema permite que o usuário ingresse a sua conta com seu
 
 ### 🧰 Pré-requisitos:
 - O usuário deve estar na tela de logar
-- O usuário deve ingressar a e-mail e senha corretas
+- O usuário deve entrar com e-mail e senha corretas
 - O banco de dados deve estar acessível
 
 ### 📝 Procedimentos (Passos para execução do teste):
@@ -143,7 +143,41 @@ O usuário deve ser redirecionado para a tela inicial do aplicativo.
 - [ ] Aprovado
 - [ ] Reprovado
 
----
+
+## 🧪 ID: 005
+
+### ✅ Tentativa de logar com senha invalida:
+
+### 🎯 Descrição:
+verificar como o sistema responde ao tentar logar com senha invalida com email valido
+
+### 🧰 Pré-requisitos:
+- O usuário deve estar na tela de logar
+- O usuário deve entrar com e-mail correto mas a senha deve estar errada
+- O banco de dados deve estar acessível
+
+### 📝 Procedimentos (Passos para execução do teste):
+1. Acessar a tela de Login
+2. Preencher os campos obrigatórios com email correto e senha correta
+3. Clicar no botão "Entrar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Email            | joao@email.com         |
+| Senha            | SenhaErrada123         |
+
+### 💡 Resultado Esperado:
+O usuário deve ser notificado de que a senha esta errada e apenas o campo de senha deve ser esvaziado.
+
+### 📌 Resultado Obtido:
+!
+
+### ✅ Status do Teste:
+!
+- [ ] Aprovado
+- [ ] Reprovado
+      
 
 
 
