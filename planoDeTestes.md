@@ -34,7 +34,6 @@ Os testes visam validar a precisão dessas funcionalidades e a integridade da in
 
 ## 3. ✅ Critérios de Sucesso
 
-Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 | Funcionalidade           | Critério de sucesso                                 |
 |--------------------------|-----------------------------------------------------|
@@ -113,7 +112,6 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 ## 7. 📆 Cronograma
 
-Organize o tempo das etapas do teste.
 
 | Atividade                  | Data de Início | Data de Término |
 |----------------------------|----------------|-----------------|
@@ -126,7 +124,6 @@ Organize o tempo das etapas do teste.
 
 ## 8. ⚠️ Riscos e Mitigações
 
-Liste possíveis problemas que podem afetar os testes, com planos de ação.
 
 | Risco Identificado                                            | Possível Impacto                        | Estratégia de Mitigação                                                |
 |---------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------|
