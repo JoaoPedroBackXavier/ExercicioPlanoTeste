@@ -37,7 +37,7 @@ Usuario deve ser redirecionado para a tela inicial e deve ser notificado de que 
 
 ## 🧪 ID: 002
 
-### ✅ Cadastro de usuario com email já existente:
+### ✅ Cadastro de usuario com email já registrado:
 
 ### 🎯 Descrição:
 Testar como o programa responde ao tentar registrar um email ja registrado
