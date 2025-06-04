@@ -90,14 +90,16 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 ## 6. 🛠️ Plano de Execução
 
   1. execução automatizada: Os testes serao programados e rodados automaticamente
+  2. Execução Manual: Os testes serão executados manualmente nos dispositivos móveis, verificando a interação do usuário com a interface e o comportamento das funcionalidades.
 
 ### Etapas de Execução:
 
 1. Preparação dos ambientes de teste.
 2. Instalação da versão de teste do sistema.
 3. Execução dos casos de teste atumatizados.
-4. Registro de defeitos encontrados.
-5. Análise de resultados.
+4. Execução dos casos de teste manuais.
+5. Registro de defeitos encontrados.
+6. Análise de resultados.
 
 ### Ambiente de Teste:
 
