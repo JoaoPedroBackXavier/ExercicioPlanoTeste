@@ -355,7 +355,7 @@ o sistema tem que mostrar uma mensagem que não conseguiu eliminar o produto
 
 ## 🧪 ID: 011
 
-### ✅ Editar o nome de um produto ja registrado:
+### ✅ Editar um produto com sucesso:
 
 ### 🎯 Descrição:
 Editar o nome de um produto ja registrado
