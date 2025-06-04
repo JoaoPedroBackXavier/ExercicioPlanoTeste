@@ -71,5 +71,42 @@ Usuario deve ser notificado que o email ja existe e todos os campos devem ser ap
 - [ ] Reprovado
 
 ---
+## 🧪 ID: 003
+
+### ✅ Cdastro de usuario com email invalido:
+
+### 🎯 Descrição:
+Testar como o programa reaje ao tentar cadastrar um email que nao existe
+
+### 🧰 Pré-requisitos:
+- Usuário deve estar na tela de cadastro
+- Banco de dados deve estar acessível
+
+### 📝 Procedimentos (Passos para execução do teste):
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados validos, mas o campo de email deve ser preenchido com um email que nao existe
+3. Clicar no botão "Cadastrar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Nome             | João da Silva          |
+| Email            | fantasma@gmail.com     |
+| Senha            | Senha123               |
+| Confirmar Senha  | Senha123               |
+
+### 💡 Resultado Esperado:
+Usuario deve ser rnotificado de que o email nao foi encontrado e todas as lacunas deve ser limpas.
+
+### 📌 Resultado Obtido:
+!
+
+### ✅ Status do Teste:
+!
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
 
 
