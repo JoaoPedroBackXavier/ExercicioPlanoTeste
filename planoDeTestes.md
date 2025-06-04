@@ -4,7 +4,7 @@
 
 ## 1. 🎯 Objetivo dos Testes
 
-O objetivo deste plano de teste é garantir que o aplicativo Lista de Compras funcione corretamente nas funcionalidades de criar, editar, visualizar e excluir compras.
+O objetivo deste plano de teste é garantir que o aplicativo Lista de Compras funcione corretamente nas funcionalidades de registrar usuario, logar, editar informacoes da conta, registrar compra, editar o nome de um produto, visualizar lista e excluir compras.
 Os testes visam validar a precisão dessas funcionalidades e a integridade da interação do usuário com o aplicativo.
 
 
@@ -15,12 +15,15 @@ Os testes visam validar a precisão dessas funcionalidades e a integridade da in
 ### ✔️ O que será testado
 
 
-| Funcionalidade           | Descrição                                              |
-|--------------------------|--------------------------------------------------------|
-|  adicionar um produto    | O usuario deve ser capaz de adicionar compras á lista  |
-|  excluir um produto      | O usuario deve ser capaz de remover compras da lista   |
-|  editar um produto       | O usuario deve ser capaz de editar um produto da lista |
-|  visualizar lista        | O usuario deve ser capaz de ver as compras da lista    |
+| Funcionalidade           | Descrição                                                 |
+|--------------------------|-----------------------------------------------------------|
+|  registrar um usuario    | O usuario dever ser capaz de se registrar                 |
+|  logar                   | O usuario dever ser capaz de entar na sua conta           |
+|  editar usuario          | O usuario dever ser capaz de mudar informacoes como o nome|
+|  adicionar um produto    | O usuario deve ser capaz de adicionar compras á lista     |
+|  excluir um produto      | O usuario deve ser capaz de remover compras da lista      |
+|  editar um produto       | O usuario deve ser capaz de editar um produto da lista    |
+|  visualizar lista        | O usuario deve ser capaz de ver as compras da lista       |
 
 ### ❌ O que **não** será testado
 
@@ -126,7 +129,7 @@ Os testes visam validar a precisão dessas funcionalidades e a integridade da in
 
 | Risco Identificado                                            | Possível Impacto                        | Estratégia de Mitigação                                                |
 |---------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------|
-| Ex: Incompatibilidade com iOS de versao 12 ou inferior        | Aplicativo não abre em alguns aparelhos | Testar em diferentes versões do iOS                                    |
-| Ex: A interface pode não ser responsiva em certos dispositivos| Dificuldade de navegação pela aplicação | Incluir testes em diferentes tipos de dispositivos                     |
+|     Incompatibilidade com iOS de versao 12 ou inferior        | Aplicativo não abre em alguns aparelhos | Testar em diferentes versões do iOS                                    |
+|     A interface pode não ser responsiva em certos dispositivos| Dificuldade de navegação pela aplicação | Incluir testes em diferentes tipos de dispositivos                     |
 
 ---
