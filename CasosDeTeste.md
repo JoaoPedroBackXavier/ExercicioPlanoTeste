@@ -1,6 +1,6 @@
 ## 🧪 ID: 001
 
-### ✅ Cdastro de usuario com dados válidos:
+### ✅ Cadastro de usuario com dados válidos:
 
 ### 🎯 Descrição:
 Testar se o programa pode registrar usuarios com dados válidos
@@ -37,7 +37,7 @@ Usuario deve ser redirecionado para a tela inicial e deve ser notificado de que 
 
 ## 🧪 ID: 002
 
-### ✅ Cdastro de usuario com email já existente:
+### ✅ Cadastro de usuario com email já existente:
 
 ### 🎯 Descrição:
 Testar como o programa responde ao tentar registrar um email ja registrado
@@ -73,7 +73,7 @@ Usuario deve ser notificado que o email ja existe e todos os campos devem ser ap
 ---
 ## 🧪 ID: 003
 
-### ✅ Cdastro de usuario com email invalido:
+### ✅ Cadastro de usuario com email invalido:
 
 ### 🎯 Descrição:
 Testar como o programa reaje ao tentar cadastrar um email que nao existe
