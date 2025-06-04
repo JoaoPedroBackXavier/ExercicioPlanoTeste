@@ -108,5 +108,42 @@ Usuario deve ser rnotificado de que o email nao foi encontrado e todas as lacuna
 
 ---
 
+## 🧪 ID: 004
+
+### ✅ logar com sucesso:
+
+### 🎯 Descrição:
+verificar se o sistema permite que o usuário ingresse a sua conta com seu 
+ e-mail e senha
+
+### 🧰 Pré-requisitos:
+- O usuário deve estar na tela de logar
+- O usuário deve ingressar a e-mail e senha corretas
+- O banco de dados deve estar acessível
+
+### 📝 Procedimentos (Passos para execução do teste):
+1. Acessar a tela de Login
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Entrar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Email            | joao@email.com         |
+| Senha            | Senha123               |
+
+### 💡 Resultado Esperado:
+O usuário deve ser redirecionado para a tela inicial do aplicativo.
+
+### 📌 Resultado Obtido:
+!
+
+### ✅ Status do Teste:
+!
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
 
 
