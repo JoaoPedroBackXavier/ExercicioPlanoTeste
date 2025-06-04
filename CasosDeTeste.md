@@ -156,7 +156,7 @@ verificar como o sistema responde ao tentar logar com senha invalida com email v
 
 ### 📝 Procedimentos (Passos para execução do teste):
 1. Acessar a tela de Login
-2. Preencher os campos obrigatórios com email correto e senha correta
+2. Preencher os campos obrigatórios com email correto e senha incorreta
 3. Clicar no botão "Entrar"
 
 ### 🧾 Dados de Entrada:
@@ -223,6 +223,7 @@ Verificar Como o sistema responde á tentativa de inserir um produto que ja exis
 ### 🧰 Pré-requisitos:
 -  O usuário deve estar na tela de cadastrar produtos
 -  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
 
 ### 📝 Procedimentos (Passos para execução do teste):
 1. Acessar a tela de cadastrar produto
@@ -257,6 +258,7 @@ Verificar que o sistema permite adicionar um produto em a lista de compras e o p
 ### 🧰 Pré-requisitos:
 -  O usuário deve estar na tela de cadastrar produtos
 -  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
 
 ### 📝 Procedimentos (Passos para execução do teste):
 1. O usuário tem que estar na tela de adicionar produto
@@ -291,6 +293,7 @@ Remover um produto usando o seu nome que ja foi registrado
 ### 🧰 Pré-requisitos:
 -  O usuário deve estar na tela de remover produtos
 -  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
 
 ### 📝 Procedimentos (Passos para execução do teste):
 1. O usuário tem que estar na tela de remover produto
@@ -317,6 +320,41 @@ O produto deve ser removido do banco de dados e o usuario deve ser notificado de
 
 ## 🧪 ID: 010
 
+### ✅ Tentativa de excluir um produto que ainda nao foi registrado:
+
+### 🎯 Descrição:
+Tentar excluir um produto que ainda nao foi registrado
+
+### 🧰 Pré-requisitos:
+-  O usuário deve estar na tela de excluir produtos
+-  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
+
+### 📝 Procedimentos (Passos para execução do teste):
+1. o usuário tem que estar na sua lista de compra 
+2. o usuário tem que tentar excluir um produto 
+3. o sistema tem que mostrar uma mensagem de erro
+4. Clicar no botão "remover"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Nome             | bananaa                |
+
+### 💡 Resultado Esperado:
+o sistema tem que mostrar uma mensagem que não conseguiu eliminar o produto
+
+### 📌 Resultado Obtido:
+!
+
+### ✅ Status do Teste:
+!
+- [ ] Aprovado
+- [ ] Reprovado
+---
+
+## 🧪 ID: 011
+
 ### ✅ Editar o nome de um produto ja registrado:
 
 ### 🎯 Descrição:
@@ -325,6 +363,7 @@ Editar o nome de um produto ja registrado
 ### 🧰 Pré-requisitos:
 -  O usuário deve estar na tela de editar produtos
 -  Banco de dados deve estar acessível
+-  O usuário deve estar autenticado no sistema (logado)
 
 ### 📝 Procedimentos (Passos para execução do teste):
 1. O usuário tem que estar na tela de editar produto
