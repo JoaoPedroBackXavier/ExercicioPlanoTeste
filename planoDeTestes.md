@@ -50,7 +50,7 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 ### Tipos de Testes Utilizados:
 
 - [x] Testes Funcionais
-- [ ] Testes de Interface (UI)
+- [x] Testes de Interface (UI)
 - [ ] Testes de Usabilidade
 
 ### Método de Execução:
@@ -67,6 +67,8 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 | Equipamento        | Especificações mínimas                     |
 |--------------------|--------------------------------------------|
+|  IOS               | Versão 12 ou superior                      |
+|  celular android   | Versão 10 ou superior                      |
 |  Computador        | Navegador Chrome/Firefox atualizado        |
 
 ### Ferramentas:
@@ -81,8 +83,8 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 | Função                 | Quantidade | Nome(s) (opcional)       |
 |------------------------|------------|--------------------------|
-| Testador               |            |                          |
-| Desenvolvedor          |            |                          |
+| Testador               |       1    |          Seu zé          |
+| Desenvolvedor          |       1    |          fulano          |
 
 
 ---
@@ -105,8 +107,7 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 | Ambiente               | Descrição                                     |
 |------------------------|-----------------------------------------------|
-| Ex: Desenvolvimento    | Versão com novas funcionalidades              |
-| Ex: Homologação        | Ambiente próximo ao ambiente de produção      |
+|  Desenvolvimento    | Versão com novas funcionalidades              |
 
 ---
 
@@ -115,11 +116,11 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 Organize o tempo das etapas do teste.
 
 | Atividade                  | Data de Início | Data de Término |
-|---------------------------|----------------|-----------------|
-| Planejamento do Teste     |                |                 |
-| Preparação do Ambiente    |                |                 |
-| Execução dos Testes       |                |                 |
-| Documentação dos Resultados|               |                 |
+|----------------------------|----------------|-----------------|
+| Planejamento do Teste      |    4/6/2027    |    5/6/2027     |
+| Preparação do Ambiente     |    5/6/2027    |    6/6/2027     |
+| Execução dos Testes        |    6/6/2027    |    9/6/2027     |
+| Documentação dos Resultados|   9/6/2027     |    10/6/2027    |
 
 ---
 
@@ -127,9 +128,9 @@ Organize o tempo das etapas do teste.
 
 Liste possíveis problemas que podem afetar os testes, com planos de ação.
 
-| Risco Identificado                      | Possível Impacto                   | Estratégia de Mitigação                   |
-|----------------------------------------|-----------------------------------|---------------------------------------------|
-| Ex: Incompatibilidade com iOS antigo   | Aplicativo não abre em alguns aparelhos | Testar em diferentes versões do iOS   |
-| Ex: Falta de dispositivos de teste     | Atraso nos testes manuais         | Uso de emuladores                           |
+| Risco Identificado                                            | Possível Impacto                        | Estratégia de Mitigação                                                |
+|---------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------|
+| Ex: Incompatibilidade com iOS de versao 12 ou inferior        | Aplicativo não abre em alguns aparelhos | Testar em diferentes versões do iOS                                    |
+| Ex: A interface pode não ser responsiva em certos dispositivos| Dificuldade de navegação pela aplicação | Incluir testes em diferentes tipos de dispositivos                     |
 
 ---
